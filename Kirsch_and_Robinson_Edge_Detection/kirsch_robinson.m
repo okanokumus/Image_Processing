@@ -42,7 +42,7 @@ y5=max(y4,x6);
 y6=max(y5,x7);
 result_image=max(y6,x8); % result image
 figure
-subplot(121);imshow (result_image,[0 255]);
+subplot(121);imshow (result_image,(min(result_image(:)) max(result_image(:))));
 title ('Kirsch Operator')
 
 % The Robinson operator
@@ -80,7 +80,7 @@ y4=max(y3,x5);
 y5=max(y4,x6);
 y6=max(y5,x7);
 result_image=max(y6,x8); % result image 
-subplot(122); imshow(result_image,[0 255]);
+subplot(122); imshow(result_image,(min(result_image(:)) max(result_image(:))));
 title ('Robinson Operator')
 end
 
