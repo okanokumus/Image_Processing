@@ -1,0 +1,32 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo\for_redistribution" />
+  <mkdir dir="C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo\for_testing" />
+  <mkdir dir="C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo\for_redistribution_files_only" />
+</ant>
+mcc -C -o kirsch_robinson_demo -W WinMain:kirsch_robinson_demo -T link:exe -d 'C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo\for_testing' -v 'C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo.m' 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\okan\Desktop\kirsch and robinson" to Compiler
+path instance.] 
+Parsing file "C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 9 temporary MEX authorization files.
+Removing: 'C:\Users\okan\AppData\Local\Temp\mathworks_tmp_010788686_4216.auth'.
+Removing: 'C:\Users\okan\AppData\Local\Temp\mathworks_tmp_0107818853_4216.auth'.
+Removing: 'C:\Users\okan\AppData\Local\Temp\mathworks_tmp_010788769_4216.auth'.
+Removing: 'C:\Users\okan\AppData\Local\Temp\mathworks_tmp_010786551_4216.auth'.
+Removing: 'C:\Users\okan\AppData\Local\Temp\mathworks_tmp_010787873_4216.auth'.
+Removing: 'C:\Users\okan\AppData\Local\Temp\mathworks_tmp_0107816814_4216.auth'.
+Removing: 'C:\Users\okan\AppData\Local\Temp\mathworks_tmp_010789686_4216.auth'.
+Removing: 'C:\Users\okan\AppData\Local\Temp\mathworks_tmp_010789732_4216.auth'.
+Removing: 'C:\Users\okan\AppData\Local\Temp\mathworks_tmp_010789528_4216.auth'.
+Generating file "C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\Program Files\MATLAB\MATLAB Production Server\R2015a\toolbox\compiler\Resources\default_icon.ico to C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo\for_testing\kirsch_robinson_demo.exe.
+Attempting to embed the CTF archive into the application C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo\for_testing\kirsch_robinson_demo.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\okan\Desktop\kirsch and robinson\kirsch_robinson_demo\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
+Elapsed packaging time was: 4 minutes and 51 seconds.

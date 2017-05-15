@@ -1,0 +1,5 @@
+write 'deploytool' to the command line
+choose 'Application Compiler'
+fill the required areas
+chose main file(on the of the screen ' Add main file')
+and finally add required file to run application
