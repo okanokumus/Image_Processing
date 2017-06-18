@@ -7,8 +7,8 @@ frame differencing and background subtraction using wabcam. When you run the cod
 background sub.
 
 ---
--> frame difference = CurrentFrame - PreviousFrame
--> background subtraction = CurrentFrame - Background
+* frame difference = CurrentFrame - PreviousFrame
+* background subtraction = CurrentFrame - Background
 ---
 * All codes in this git are implemented in using Visual Studio 2015 and OpenCV 3.1.0
 Precompiled header file is used in Visual
