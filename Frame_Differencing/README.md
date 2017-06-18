@@ -1,8 +1,8 @@
-# Frame_Differencing
+# Frame_differencing.cpp (includes...)
 frame differencing of a video
 also shows some the properties of video
 
-# frame_diff_and_background_sub_live
+# frame_diff_and_background_sub_live.cpp (includes...)
 frame differencing and background subtraction using wabcam. When you run the code, algorithm wants to take background image to press the 't'. You can adjust the threshold value of the resuşt images of the frame diff and 
 background sub.
 
